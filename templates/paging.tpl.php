@@ -1,7 +1,4 @@
-<div id="pagingLabel">
-    Puslapiai:
-</div>
-<ul id="paging">
+<ul>
     <?php
     foreach ($paging->data as $key => $value) {
         $activeClass = "";
